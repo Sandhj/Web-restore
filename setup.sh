@@ -14,5 +14,9 @@ source myenv/bin/activate
 pip install flask
 
 cd /root/user/restore-web/
-wget -q https://raw.githubusercontent.com/Sandhj/Web-restore/main/
+wget -q https://raw.githubusercontent.com/Sandhj/Web-restore/main/app.py
+wget -q https://raw.githubusercontent.com/Sandhj/Web-restore/main/restore.html
+sudo wget -q -O /usr/bin/start_app.sh https://raw.githubusercontent.com/Sandhj/Web-restore/main/start_app.sh
+
+
 
