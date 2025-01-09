@@ -16,8 +16,8 @@ pip install flask
 cd /root/user/restore-web/
 wget -q https://raw.githubusercontent.com/Sandhj/Web-restore/main/app.py
 wget -q https://raw.githubusercontent.com/Sandhj/Web-restore/main/restore.html
-sudo wget -q -O /usr/bin/start_app.sh https://raw.githubusercontent.com/Sandhj/Web-restore/main/start_app && chmod +x start_app
-sudo mv start_app.sh /usr/bin/
+wget -q https://raw.githubusercontent.com/Sandhj/Web-restore/main/start_app && chmod +x start_app
+sudo mv start_app /usr/bin/
 
 #Back to root
 cd
