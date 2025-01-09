@@ -40,7 +40,7 @@ def upload_file():
             if os.path.exists(target_file_path):
                 os.remove(target_file_path)
             os.rename(extracted_file_path, target_file_path)
-            return "File uploaded and replaced successfully"
+            return "Restore Succesfully"
         else:
             return "04_inbounds.json not found in ZIP", 400
     else:
