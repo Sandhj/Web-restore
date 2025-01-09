@@ -1,5 +1,5 @@
 #Uodate Package
-sudo apt update
+sudo apt update -y
 #Instal Paket Virtual Envi
 sudo apt install python3-venv
 #Buat Lokasi Projek
