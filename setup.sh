@@ -13,4 +13,6 @@ source myenv/bin/activate
 #Install Modul Yang Diinginkan
 pip install flask
 
+cd /root/user/restore-web/
+wget -q https://raw.githubusercontent.com/Sandhj/Web-restore/main/
 
