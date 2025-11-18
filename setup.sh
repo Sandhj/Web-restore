@@ -1,7 +1,7 @@
 #Uodate Package
 sudo apt update -y
 #Instal Paket Virtual Envi
-sudo apt install python3-venv
+sudo apt install python3-venv -y
 #Buat Lokasi Projek
 mkdir -p /root/user/restore-web/
 #Masuk Ke Lokasi Projek
